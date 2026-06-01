@@ -110,28 +110,25 @@ while True:
 
     m=matrix()
     if ch==1:
-        # n=input("Enter number of matrix you want to add:")
-       
+             
         m.mat()
         m.addition()
              
         matrix.matrices.clear()
-        # break
     
     elif ch==2:
 
         m.mat()
         m.subtraction()
         matrix.matrices.clear()
-        # break
 
     elif ch==3:
 
         m.mat()
         m.multiply()
-        
+       
         matrix.matrices.clear()
-        # break
+
 
     elif ch==4:
 
@@ -139,7 +136,6 @@ while True:
         m.transpose()
         
         matrix.matrices.clear()
-        # break
 
     elif ch==5:
 
@@ -147,7 +143,6 @@ while True:
         m.determinant()
         
         matrix.matrices.clear()
-        # break
 
     elif ch==6:
 
@@ -155,7 +150,6 @@ while True:
         m.inverse()
     
         matrix.matrices.clear()
-        # break
     
     elif ch==7:
         print("Terminating program!!!")
